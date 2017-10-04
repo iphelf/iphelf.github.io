@@ -1,3 +1,44 @@
-embed{
-  border:5px solid black; margin:20px
+h1{
+	
+	padding-top:5px;
+	font-size:50px;
+	color: #FFFFFF;
+}
+title{
+	font-family:'HoangYen11d8cafc99a1a8fb';
+}
+body {
+   background:url("bg.jpg");
+}
+nav {
+   padding: 5px 0;
+   min-width: 500px; 
+}
+.glass {
+   background: linear-gradient(90deg, 
+     rgba(255, 255, 255, 0) 0%, 
+     rgba(255, 255, 255, 0.2) 25%, 
+     rgba(255, 255, 255, 0.2) 75%, 
+     rgba(255, 255, 255, 0) 100%);
+   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+     inset 0 0 1px rgba(255, 255, 255, 0.6);
+     margin-bottom:10px;
+}
+nav ul li {
+   display: inline-block;
+}
+nav ul li a {
+   padding: 10px; 
+   color: #eee;
+   font-size: 18px;
+   font-family: Arial;
+   text-decoration: none;
+   display: block;
+ }
+div ul,li{
+  padding: 5px 20px;
+}
+a{
+  color: #eee;
+  text-decoration:none
 }
