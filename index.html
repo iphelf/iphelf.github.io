@@ -11,7 +11,7 @@
       <ul class="glass" align="center">
         <li><a href="#">BLOG[N/A]</a></li>
          <li><a href="#">WORK</a></li>
-         <li><a href="#">RESOURCE</a></li>
+         <li><a href="#" onclick="haha()">RESOURCE</a></li>
          <li><a href="#">INFO[N/A]</a></li>
       </ul>
     </nav>
@@ -44,5 +44,23 @@
         
       </ul>
     </div>
+    <script>
+          var a=0;
+          function haha(){
+            if(a==0){
+                alert("Please click it 10 more times");
+            }
+            if(a==10){
+                alert("Do it again to show your sincerity");
+            }
+            if(a==20){
+                alert("An old joke.");
+            }
+            if(a==100){
+                alert("Screenshot this page and send it to me, and I'll give you what you deserve.");
+            }
+            a++;
+          }
+    </script>
 	</body>
 </html>
