@@ -27,7 +27,7 @@ nav {
 nav ul li {
    display: inline-block;
 }
-nav ul li a {
+nav ul li a{
    padding: 10px; 
    color: #eee;
    font-size: 18px;
@@ -38,7 +38,23 @@ nav ul li a {
 div ul,li{
   padding: 5px 20px;
 }
+p{
+  padding: 1px 20px;
+  font-size: 20px;
+  color: white;
+}
 a{
   color: #eee;
   text-decoration:none
+}
+p a{
+  font-style: italic;
+  color: blue;
+}
+blockquote{
+  font-size: 20px;
+  color: white;
+  font-style: italic;
+  padding: 5px 25px;
+  border-left: 3px solid white
 }
